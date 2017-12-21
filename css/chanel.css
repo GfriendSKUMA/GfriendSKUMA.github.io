@@ -1,0 +1,187 @@
+*{
+				margin:0px;
+				padding:0px;
+			 }
+			
+			.topbar
+			{
+				width:100%;
+				height:50px;
+				background-color:black;
+				position:fixed;
+				z-index:1;
+				
+			}
+			.topbar .logo
+			{
+				width:276px;
+				height:54px;
+				float:left;
+			}
+			.topbar .nav
+			{
+				float:left;
+				
+			}
+			.topbar .nav ul
+			{
+				list-style: none;
+				margin-left:400px;
+			}
+			.topbar .nav ul li
+			{
+				float:left;
+				margin-left:50px;
+				margin-top:10px;
+			}
+			.topbar .nav ul li a
+			{
+				text-decoration: none;
+				color:white;
+			}
+			.topbar .nav ul li a:hover
+			{
+				color:#555555;
+			}
+			.head
+			{
+				width:1523px;
+				height:683px;
+				position:relative;
+				/*background-color:yellow;*/
+				margin:0 auto;
+			}
+			.content
+			{
+				width:1523px;
+				height:1335px;
+				/*background-color:red;*/
+				position: relative;
+				margin:0 auto;
+				margin-top:20px;
+			}
+			.content ul
+			{
+				list-style: none;
+			}
+			.content ul li
+			{
+				float:left;
+				width:750px;
+				height:445px;
+				
+			}
+			.content ul li p
+			{
+				width:750px;
+				height:30px;
+				background-color:black;
+				color:white;
+				
+			
+				
+			}
+			.footer
+			{
+				width:100%;
+				height:200px;
+			/*	background-color: green;*/
+				position: relative;
+			}
+			.footer-top
+			{
+				width:100%;
+				height:160px;
+			}
+			.footer-top .line
+			{
+				width:100%;
+				height:1px;
+				background-color: #e6e6e6;
+				
+				
+			}
+
+			.footer-top table tr td
+			{
+				width:500px;
+				height:150px;
+				/*background-color:red;*/
+				
+			}
+			
+			.footer-top table tr td a
+			{  
+				text-decoration: none;
+				line-height: 36px;;
+				display:block;
+				background-color: black;
+				color:white;
+				width:78px;
+				height:40px;
+				margin-left:200px;
+				margin-top:20px;
+				
+			}
+			.footer-top table tr td a:hover
+			{
+				background-color:#e6e6e6;
+				color:black;
+			}
+			.footer-bottom
+			{
+				width:100%;
+				height:100px;
+			}
+			.footer-logo 
+			{
+			    margin-left:50px;
+				height: 50px;
+				/*background:red;*/
+				float:left;
+			}
+			.footer-logo p a
+			{
+				text-decoration: none;
+				color:#9999a6;
+				font-size:10px;
+				
+			}
+			.footer-logo a
+			{
+				text-decoration: none;
+				color:#9999a6;
+			 
+			}
+			.footer-bottom .footer-logo p a:hover
+			{
+				color:black;
+			}
+			.footer-nav
+			{
+				float:left;
+				margin-top:30px;
+			}
+			.footer-nav ul
+			{
+				list-style: none;
+				margin-left:450px;
+				
+			}
+			.footer-nav ul li
+			{
+				float:left;
+				margin-right:20px;
+				/*background-color:green;*/
+			}
+			.footer-nav ul li a
+			{
+				color:#b2b2c8;
+				font-size:11px;
+				text-decoration: none;
+			}
+			.footer-nav ul li a:hover
+			{
+				color:black;
+			}
+			
